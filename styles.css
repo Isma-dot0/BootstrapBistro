@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    background-color: #EADDCA;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #7B3F00;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    padding: 4rem 2rem;
+    background: #C19A6B;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    text-transform: uppercase;
+    transition: background 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #7B3F00;
+}
+
+/* Testimonial Section */
+.testimonials {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #f4f4f4;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom Media Queries */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
